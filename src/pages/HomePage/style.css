@@ -1,8 +1,15 @@
-.container {
+body {
   background-image: url("/img/Můj\ den\ \(4\).gif");
   background-size: cover;
   min-height: 100vh;
   color: #4B0082;
+}
+
+.container {
+  padding: 50px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 .muj-den {
@@ -10,10 +17,19 @@
   font-size: 48px;
 }
 
-.dinosaur {
+.text {
   text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 30px;
+}
 
-
+.dino-mino {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .dino {
@@ -21,18 +37,11 @@
 }
 
 .paws {
-  max-width: 860px;
   display: flex;
-  justify-content: space-around;
-  margin: auto;
-  margin-bottom: 20px;
+  gap: 150px;
   text-align: center;
 }
 
 .paws img {
   width: 13rem;
-}
-
-.paws-box:hover {
-  background-size: 550px;
 }
