@@ -1,15 +1,11 @@
+import './reset.css';
 import './style.css';
+import { Heading } from './../../components/TitlePage/Heading';
 
 export const HomePage = () => {
   return (
     <div className="container">
-      <div className="headding">
-        <h1 className="muj-den">Můj skvělý den!!!</h1>
-        <p className="text">
-          Ahoj, jsem Dino-Mino, a spolu se mnou se budeš učit a bavit při
-          plánování tvého dne.
-        </p>
-      </div>
+      <Heading />
       <div className="dino-mino">
         <div className="dinosaur">
           <img src="/img/1.png" className="dino" alt="Dino"></img>
