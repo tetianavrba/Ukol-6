@@ -11,67 +11,12 @@ body {
 
 .container {
   margin: auto;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  min-height: 90vh;
   justify-content: center;
   align-items: center;
-}
-
-.dino-mino {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  flex-shrink: 1;
-  font-size: 1.8rem;
-}
-
-.dinosaur {
-  display: flex;
-  justify-content: center;
-  max-width: 30%;
-}
-
-.dino {
-  max-width: 300px;
-  filter: drop-shadow(1px 15px 1px rgb(51, 255, 58, 0.4));
-}
-
-.paws {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 150px;
-  text-align: center;
-  justify-content: center;
-  text-shadow: 3px 3px 3px #d860e6;
-
-}
-
-.paw-green {
-  width: 13rem;
-  filter: drop-shadow(10px 10px 10px rgb(95, 3, 95));
-}
-
-
-.paw-blue {
-  width: 13rem;
-  filter: drop-shadow(9px 5px 10px rgb(61, 255, 51));
-}
-
-@media (max-width: 890px) {
-  .container {
-    margin-top: 50px;
-  }
-}
-
-@media (max-width: 500px) {
-  .text {
-    display: none;
-  }
-
-  .paws {
-    gap: 50px
-  }
+  flex: 0 1;
 }
