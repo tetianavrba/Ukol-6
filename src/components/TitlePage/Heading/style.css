@@ -1,8 +1,13 @@
 .heading {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
-  max-width: 80%;
+  width: 100%;
+}
+
+.title_muj-den {
+  text-align: center;
+  font-size: 7vw;
+  text-shadow: 3px 3px 3px #d860e6;
 }
 
 .text {
@@ -12,9 +17,11 @@
   padding: 2%;
 }
 
-.title_muj-den {
-  text-align: center;
-  font-size: 5rem;
-  text-shadow: 3px 3px 3px #d860e6;
-  flex-shrink: 2;
+
+@media (max-width: 826px) {
+  .text {
+    display: none;
+  }
 }
+
+;

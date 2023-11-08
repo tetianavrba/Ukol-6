@@ -42,11 +42,3 @@
   width: 13rem;
   filter: drop-shadow(9px 5px 10px rgb(61, 255, 51));
 }
-
-@media (max-width: 796px) {
-  .text {
-    display: none;
-  }
-}
-
-;
