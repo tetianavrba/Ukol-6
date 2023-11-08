@@ -12,13 +12,17 @@
 
 .text {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2vw;
   font-weight: 600;
   padding: 2%;
 }
 
 
 @media (max-width: 826px) {
+  .title_muj-den {
+    font-size: 10vw;
+  }
+
   .text {
     display: none;
   }
