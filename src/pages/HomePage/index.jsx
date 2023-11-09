@@ -1,4 +1,5 @@
 import './style.css';
+import { Link, Outlet } from 'react-router-dom';
 
 export const HomePage = () => {
   return (
@@ -16,21 +17,28 @@ export const HomePage = () => {
         </div>
         <div className="paws">
           <div className="paws-box">
-            <h2>Táňa</h2>
-            <img
-              src="/img/paw-blue.png"
-              className="paw-blue"
-              alt="Step-purple"
-            ></img>
+            <Link to="/TanaPage">
+              <h2>Táňa</h2>
+              <img
+                src="/img/paw-blue.png"
+                className="paw-blue"
+                alt="Step-purple"
+              ></img>{' '}
+            </Link>
           </div>
+
           <div className="paws-box">
-            <h2>Týna</h2>
-            <img
-              src="/img/paw-green.png"
-              className="paw-green"
-              alt="Step-green"
-            ></img>
+            <Link to="/TynaPage">
+              <h2>Týna</h2>
+              <img
+                src="/img/paw-green.png"
+                className="paw-green"
+                alt="Step-green"
+              ></img>{' '}
+            </Link>
           </div>
+
+          <Outlet />
         </div>
       </div>
     </div>

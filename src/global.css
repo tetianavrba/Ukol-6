@@ -9,3 +9,12 @@
 html {
   font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
