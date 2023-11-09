@@ -1,0 +1,44 @@
+.dino-mino {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  font-size: 1.8rem;
+}
+
+.dinosaur {
+  width: 350px;
+  min-width: 30%;
+  max-width: 40%;
+  flex-basis: 350px;
+  flex-shrink: 1;
+}
+
+.dino {
+  max-width: 100%;
+  filter: drop-shadow(1px 15px 1px rgb(51, 255, 58, 0.4));
+}
+
+
+.paws {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  text-align: center;
+  justify-content: center;
+  text-shadow: 3px 3px 3px #d860e6;
+  flex-shrink: 1;
+
+}
+
+.paw-green {
+  width: 13rem;
+  filter: drop-shadow(10px 10px 10px rgb(95, 3, 95));
+}
+
+
+.paw-blue {
+  width: 13rem;
+  filter: drop-shadow(9px 5px 10px rgb(61, 255, 51));
+}

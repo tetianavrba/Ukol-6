@@ -1,7 +1,16 @@
+html {
+  background-color: antiquewhite;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+}
+
 body {
+  margin: auto;
   background-image: url("./../../../public/img/mujDen5.gif");
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
   color: #4B0082;
   display: flex;
   flex-wrap: wrap;
@@ -9,92 +18,24 @@ body {
   font-family: 'Russo One', sans-serif;
 }
 
+#app {
+  width: 100%;
+}
+
 .container {
   margin: auto;
+  margin-top: 2rem;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  min-height: 90%;
   justify-content: center;
   align-items: center;
+  flex: 0 1;
 }
 
-.muj-den {
-  text-align: center;
-  font-size: 5rem;
-  text-shadow: 3px 3px 3px #d860e6;
-}
-
-.text {
-  text-align: center;
-  font-size: 32px;
-  font-weight: 600;
-  padding: 30px;
-
-}
-
-.dino-mino {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  flex-shrink: 1;
-  font-size: 1.8rem;
-}
-
-.headding {
-  display: flex;
-  flex-direction: column;
-  max-width: 80%;
-  flex-shrink: 2;
-}
-
-.dinosaur {
-  display: flex;
-  justify-content: center;
-  width: 30%;
-  flex-shrink: 3;
-
-}
-
-.dino {
-  max-width: 300px;
-  filter: drop-shadow(1px 20px 1px rgb(51, 255, 58, 0.5));
-}
-
-.paws {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 150px;
-  text-align: center;
-  justify-content: center;
-  text-shadow: 3px 3px 3px #d860e6;
-
-}
-
-.paw-green {
-  width: 13rem;
-  filter: drop-shadow(10px 10px 10px rgb(95, 3, 95));
-}
-
-
-.paw-blue {
-  width: 13rem;
-  filter: drop-shadow(9px 5px 10px rgb(61, 255, 51));
-}
-
-@media (max-width: 890px) {
-  .container {
-    margin-top: 50px;
-  }
-}
-
-@media (max-width: 500px) {
-  .text {
-    display: none;
-  }
-
-  .paws {
-    gap: 50px
+@media (min-width: 1200px) {
+  body {
+    max-width: 80vh;
   }
 }

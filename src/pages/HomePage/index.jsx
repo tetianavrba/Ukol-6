@@ -1,9 +1,16 @@
+import './reset.css';
 import './style.css';
+<<<<<<< HEAD
 import { Link, Outlet } from 'react-router-dom';
+=======
+import { Heading } from './../../components/TitlePage/Heading';
+import { MainContentContainer } from './../../components/TitlePage/MainContentContainer';
+>>>>>>> 43f84e7af8a5a89b5edfac5c1e186f09115962bb
 
 export const HomePage = () => {
   return (
     <div className="container">
+<<<<<<< HEAD
       <div className="headding">
         <h1 className="muj-den">Můj skvělý den!!!</h1>
         <p className="text">
@@ -41,6 +48,10 @@ export const HomePage = () => {
           <Outlet />
         </div>
       </div>
+=======
+      <Heading />
+      <MainContentContainer />
+>>>>>>> 43f84e7af8a5a89b5edfac5c1e186f09115962bb
     </div>
   );
 };
